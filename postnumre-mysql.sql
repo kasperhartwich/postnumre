@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS `zip_codes` (
   `region_name` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
   `country_code` varchar(3) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES ("1081","Region Nordjylland","773","Morsø Kommune","7900","Nykøbing Mors","DK");
 INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES ("1081","Region Nordjylland","773","Morsø Kommune","7950","Erslev","DK");
 INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES ("1081","Region Nordjylland","773","Morsø Kommune","7960","Karby","DK");
 INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES ("1081","Region Nordjylland","773","Morsø Kommune","7970","Redsted M","DK");
