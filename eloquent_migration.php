@@ -16,6 +16,7 @@ class CreateZipcodesTable extends Migration {
             $table->string("region_name", 50);
             $table->string("country_code", 3);
         });
+		DB::insert('INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES (?, ?, ?, ?, ?, ?, ?)', array("1081","Region Nordjylland","773","Morsø Kommune","7900","Nykøbing Mors","DK"));
 		DB::insert('INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES (?, ?, ?, ?, ?, ?, ?)', array("1081","Region Nordjylland","773","Morsø Kommune","7950","Erslev","DK"));
 		DB::insert('INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES (?, ?, ?, ?, ?, ?, ?)', array("1081","Region Nordjylland","773","Morsø Kommune","7960","Karby","DK"));
 		DB::insert('INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES (?, ?, ?, ?, ?, ?, ?)', array("1081","Region Nordjylland","773","Morsø Kommune","7970","Redsted M","DK"));
