@@ -1426,4 +1426,3 @@ INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_na
 INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES ("1085","Region Sjælland","390","Vordingborg Kommune","4791","Borre","DK");
 INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES ("1085","Region Sjælland","390","Vordingborg Kommune","4792","Askeby","DK");
 INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES ("1085","Region Sjælland","390","Vordingborg Kommune","4793","Bogø By","DK");
-INSERT INTO zip_codes (region_code,region_name,municipality_code,municipality_name,zip_code,city,country_code) VALUES ("
